@@ -43,3 +43,5 @@ Route::resource ('Supplier', 'SupplierController');
 Route::resource ('Customer','CustomerController');
 
 Route::resource ('Employee','EmployeeController');
+
+Route::get('/Home','HomeController@index');
